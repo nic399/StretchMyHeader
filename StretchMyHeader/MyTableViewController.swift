@@ -7,18 +7,6 @@
 //
 
 import UIKit
-struct NewsItem {
-    var storyCategory:Categories
-    var headline:String
-    init(storyCategory: Categories, headline: String) {
-        self.storyCategory = storyCategory
-        self.headline = headline
-    }
-}
-
-enum Categories:String {
-    case World = "World", Europe = "Europe", MiddleEast = "Middle East", Africa = "Africa", AsiaPacific = "Asia Pacific", Americas = "Americas"
-}
 
 class MyTableViewController: UITableViewController {
     
